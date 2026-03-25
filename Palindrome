@@ -1,0 +1,10 @@
+my_string = "malayalam"
+
+# Reverse the string using slicing
+# [::-1] means start at the end and go to the beginning with a step of -1
+reversed_string = my_string[::-1]
+
+if my_string == reversed_string:
+    print(f"'{my_string}' is a palindrome (it reads the same forwards and backwards)")
+else:
+    print(f"'{my_string}' is not a palindrome")
